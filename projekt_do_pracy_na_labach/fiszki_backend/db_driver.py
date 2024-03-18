@@ -2,7 +2,7 @@ import motor.motor_asyncio
 from bson.objectid import ObjectId
 from models import Collection, FlashCard
 import os 
-
+as
 
 db_url = os.environ.get("DATABASE_URL", "mongodb://localhost:27017")
 
